@@ -1,0 +1,74 @@
+/*!
+ * Start Bootstrap - Full (http://startbootstrap.com/template-overviews/full)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+
+body {
+    background-image:url("img/fundo.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*Daqui pra Baixo é do LOGIN*/
+@import "bourbon";
+
+body {
+	background: !important;	
+}
+
+.wrapper {	
+  margin-top: 230px;
+  margin-left: 600px;
+  margin-bottom: 200px;
+}
+.form-signin-heading{
+        color:firebrick;
+    }
+.form-signin {
+  max-width: 600px;
+  max-height: 700px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color:rgba(000,000,000,0.9);
+  border: 1px solid rgba(0,0,0,0.1);
+
+
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+      color:white;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
+
+   
